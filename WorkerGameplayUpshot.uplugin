@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Worker Gameplay Upshot",
+	"Description": "Extending WorkerUpstreamNotify, WorkerGameplayUpshot Introduces a blueprint-exposed type of upstream notification called Gameplay Upshot, which encapsulates the final notice about a gameplay occurrence, after privately evaluating its consequence first. 'Upshot' implies it's always send *after* privately evaluating the result of that gameplay occurrence first.",
+	"Category": "Generic Activity Framework",
+	"CreatedBy": "Lucas",
+	"CreatedByURL": "https://ubyte.dev",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "WorkerGameplayUpshotRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WorkerGameplayUpshotEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GenericActivityFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "WorkerUpstreamNotify",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayTypeLayout",
+			"Enabled": true
+		},
+		{
+			"Name": "TypedTagStaticImpl",
+			"Enabled": true
+		}
+	]
+}
