@@ -16,7 +16,7 @@ struct FTestAgentGameplayUpshotSet /*final*/ : public FAgentGameplayUpshotFieldS
     GENERATED_BODY()
 
     // This constructor attempts to fill all soft tag body properties with its corresponding tag value.
-    FRageAgentGameplayUpshotSet() { TSoftTagBodyStatics<TRemovePointer<decltype(this)>::Type>::InitFields<FAgentGameplayUpshotTag>(this); }
+    FTestAgentGameplayUpshotSet() { TSoftTagBodyStatics<TRemovePointer<decltype(this)>::Type>::InitFields<FAgentGameplayUpshotTag>(this); }
 
     UPROPERTY(VisibleAnywhere, Meta = (SoftTagBody = true))
     FAgentGameplayUpshotTag Damaged;
