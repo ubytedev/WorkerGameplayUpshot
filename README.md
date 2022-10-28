@@ -11,7 +11,7 @@ Introduces a blueprint-exposed type of Upstream Notification called Gameplay Ups
 ## Example
 ```cpp
 USTRUCT()
-struct FRynAgentGameplayUpshotSet /*final*/ : public FAgentGameplayUpshotFieldSetBase
+struct FTestAgentGameplayUpshotSet /*final*/ : public FAgentGameplayUpshotFieldSetBase
 {
     GENERATED_BODY()
 
