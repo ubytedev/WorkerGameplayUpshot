@@ -9,6 +9,7 @@ Introduces a blueprint-exposed type of Upstream Notification called Gameplay Ups
 - [TypedTagStaticImpl](https://github.com/ubytedev/TypedTagStaticImpl)
 
 ## Example
+(Using the experimental [SoftTagBody](https://github.com/ubytedev/SoftTagBody) metadata specifier.)
 ```cpp
 USTRUCT()
 struct FTestAgentGameplayUpshotSet /*final*/ : public FAgentGameplayUpshotFieldSetBase
